@@ -1,0 +1,45 @@
+<svg width="640" height="440" viewBox="0 0 640 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pantalla del Punto de Venta">
+  <defs>
+    <linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#4c6ef5"/><stop offset="1" stop-color="#3b5bdb"/></linearGradient>
+  </defs>
+  <rect width="640" height="440" rx="16" fill="#eef1f6"/>
+  <!-- product grid -->
+  <text x="24" y="42" font-family="Segoe UI, Arial" font-size="18" font-weight="800" fill="#0f172a">Punto de Venta</text>
+  <rect x="24" y="58" width="150" height="30" rx="15" fill="#ffffff" stroke="#dbe2ea"/>
+  <circle cx="41" cy="73" r="5" fill="#adb5bd"/>
+  <rect x="52" y="70" width="90" height="6" rx="3" fill="#cbd5e1"/>
+  <!-- categories -->
+  <g font-family="Segoe UI, Arial" font-size="11" font-weight="700">
+    <rect x="24" y="100" width="64" height="26" rx="13" fill="url(#pg)"/><text x="40" y="117" fill="#fff">Todo</text>
+    <rect x="96" y="100" width="76" height="26" rx="13" fill="#fff" stroke="#dbe2ea"/><text x="110" y="117" fill="#495057">Bebidas</text>
+    <rect x="180" y="100" width="76" height="26" rx="13" fill="#fff" stroke="#dbe2ea"/><text x="196" y="117" fill="#495057">Snacks</text>
+    <rect x="264" y="100" width="76" height="26" rx="13" fill="#fff" stroke="#dbe2ea"/><text x="280" y="117" fill="#495057">Abarrote</text>
+  </g>
+  <!-- product cards -->
+  <g>
+    <g><rect x="24" y="140" width="98" height="96" rx="12" fill="#fff" stroke="#e2e8f0"/><rect x="38" y="154" width="70" height="42" rx="8" fill="#e7f5ff"/><rect x="38" y="204" width="54" height="7" rx="3.5" fill="#cbd5e1"/><text x="38" y="228" font-family="Segoe UI, Arial" font-size="12" font-weight="800" fill="#3b5bdb">$18.00</text></g>
+    <g><rect x="130" y="140" width="98" height="96" rx="12" fill="#fff" stroke="#e2e8f0"/><rect x="144" y="154" width="70" height="42" rx="8" fill="#fff3bf"/><rect x="144" y="204" width="60" height="7" rx="3.5" fill="#cbd5e1"/><text x="144" y="228" font-family="Segoe UI, Arial" font-size="12" font-weight="800" fill="#3b5bdb">$25.50</text></g>
+    <g><rect x="236" y="140" width="98" height="96" rx="12" fill="#fff" stroke="#e2e8f0"/><rect x="250" y="154" width="70" height="42" rx="8" fill="#ffe3e3"/><rect x="250" y="204" width="46" height="7" rx="3.5" fill="#cbd5e1"/><text x="250" y="228" font-family="Segoe UI, Arial" font-size="12" font-weight="800" fill="#3b5bdb">$12.00</text></g>
+    <g><rect x="24" y="248" width="98" height="96" rx="12" fill="#fff" stroke="#e2e8f0"/><rect x="38" y="262" width="70" height="42" rx="8" fill="#d3f9ee"/><rect x="38" y="312" width="58" height="7" rx="3.5" fill="#cbd5e1"/><text x="38" y="336" font-family="Segoe UI, Arial" font-size="12" font-weight="800" fill="#3b5bdb">$32.00</text></g>
+    <g><rect x="130" y="248" width="98" height="96" rx="12" fill="#fff" stroke="#e2e8f0"/><rect x="144" y="262" width="70" height="42" rx="8" fill="#e5dbff"/><rect x="144" y="312" width="52" height="7" rx="3.5" fill="#cbd5e1"/><text x="144" y="336" font-family="Segoe UI, Arial" font-size="12" font-weight="800" fill="#3b5bdb">$45.00</text></g>
+    <g><rect x="236" y="248" width="98" height="96" rx="12" fill="#fff" stroke="#e2e8f0"/><rect x="250" y="262" width="70" height="42" rx="8" fill="#c5f6fa"/><rect x="250" y="312" width="60" height="7" rx="3.5" fill="#cbd5e1"/><text x="250" y="336" font-family="Segoe UI, Arial" font-size="12" font-weight="800" fill="#3b5bdb">$9.50</text></g>
+  </g>
+  <!-- ticket -->
+  <rect x="356" y="24" width="260" height="392" rx="14" fill="#0f172a"/>
+  <text x="378" y="54" font-family="Segoe UI, Arial" font-size="14" font-weight="800" fill="#fff">Ticket #1042</text>
+  <line x1="378" y1="68" x2="594" y2="68" stroke="#334155"/>
+  <g font-family="Segoe UI, Arial" font-size="12">
+    <text x="378" y="94" fill="#e2e8f0">2× Refresco 600ml</text><text x="560" y="94" fill="#fff" font-weight="700">$36.00</text>
+    <text x="378" y="122" fill="#e2e8f0">1× Papas grandes</text><text x="560" y="122" fill="#fff" font-weight="700">$25.50</text>
+    <text x="378" y="150" fill="#e2e8f0">3× Chicle menta</text><text x="560" y="150" fill="#fff" font-weight="700">$36.00</text>
+    <text x="378" y="178" fill="#e2e8f0">1× Café americano</text><text x="560" y="178" fill="#fff" font-weight="700">$32.00</text>
+  </g>
+  <line x1="378" y1="200" x2="594" y2="200" stroke="#334155"/>
+  <text x="378" y="234" font-family="Segoe UI, Arial" font-size="12" fill="#94a3b8">Subtotal</text><text x="536" y="234" font-family="Segoe UI, Arial" font-size="12" fill="#e2e8f0">$129.50</text>
+  <text x="378" y="256" font-family="Segoe UI, Arial" font-size="12" fill="#94a3b8">IVA</text><text x="536" y="256" font-family="Segoe UI, Arial" font-size="12" fill="#e2e8f0">$20.72</text>
+  <text x="378" y="298" font-family="Segoe UI, Arial" font-size="16" font-weight="800" fill="#fff">Total</text><text x="500" y="298" font-family="Segoe UI, Arial" font-size="22" font-weight="800" fill="#63e6be">$150.22</text>
+  <rect x="378" y="322" width="216" height="44" rx="12" fill="url(#pg)"/>
+  <text x="440" y="350" font-family="Segoe UI, Arial" font-size="14" font-weight="800" fill="#fff">Cobrar</text>
+  <rect x="378" y="374" width="104" height="30" rx="10" fill="#1e293b"/><text x="404" y="394" font-family="Segoe UI, Arial" font-size="11" fill="#cbd5e1">Efectivo</text>
+  <rect x="490" y="374" width="104" height="30" rx="10" fill="#1e293b"/><text x="520" y="394" font-family="Segoe UI, Arial" font-size="11" fill="#cbd5e1">Tarjeta</text>
+</svg>
