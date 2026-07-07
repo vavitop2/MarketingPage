@@ -3,380 +3,405 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kuadra — Soluciones digitales a la medida para tu negocio</title>
-  <meta name="description" content="Soluciones integrales hechas a la medida para pequeños negocios: Cartera y Cobranza, Punto de Venta y Sistema de Citas. Sin pagar por funciones que nunca usarás." />
-  <meta name="theme-color" content="#0b1120" />
+  <title>Kuadra — Software a la medida para tu negocio</title>
+  <meta name="description" content="Kuadra construye soluciones digitales a la medida para pequeños negocios: cartera y cobranza, punto de venta y agenda de citas. Solo lo que tu negocio usa, sin pagar por lo que no." />
+  <meta name="theme-color" content="#0b0d12" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
-
-  <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Kuadra — Soluciones digitales a tu medida" />
-  <meta property="og:description" content="Software hecho a la medida para pequeños negocios: cobra a tiempo, vende más y organiza tu agenda. Sin pagar por funciones que no usas." />
+  <meta property="og:title" content="Kuadra — Software a la medida para tu negocio" />
+  <meta property="og:description" content="Soluciones digitales a la medida para pequeños negocios. Solo lo que tu negocio usa." />
   <meta property="og:locale" content="es_MX" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- ===== HEADER ===== -->
-  <header class="site-header" id="top">
-    <div class="container header-inner">
-      <a href="#top" class="brand" aria-label="Kuadra - Inicio">
+  <!-- ============ HEADER ============ -->
+  <header class="hdr" id="top">
+    <div class="wrap hdr__in">
+      <a href="#top" class="brand" aria-label="Kuadra — inicio">
         <img src="assets/logo.svg" alt="Kuadra Soluciones Digitales" width="188" height="40" />
       </a>
-      <nav class="main-nav" aria-label="Navegación principal">
+      <nav class="nav" aria-label="Principal">
         <a href="#soluciones">Soluciones</a>
-        <a href="#comparativa">¿Por qué a la medida?</a>
-        <a href="#proceso">Cómo trabajamos</a>
+        <a href="#comparativa">A la medida</a>
+        <a href="#proceso">Proceso</a>
         <a href="#faq">Preguntas</a>
       </nav>
-      <a class="btn btn-primary btn-sm header-cta" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20digitalizar%20mi%20negocio%20con%20Kuadra" target="_blank" rel="noopener">
-        <span class="wa-ico" aria-hidden="true">✆</span> Cotizar por WhatsApp
+      <a class="btn btn--accent btn--sm hdr__cta" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20de%20Kuadra" target="_blank" rel="noopener">
+        <svg class="i ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>
+        Cotizar
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="burger" id="burger" aria-label="Menú" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
-    <div class="mobile-nav" id="mobileNav">
+    <div class="mnav" id="mnav">
       <a href="#soluciones">Soluciones</a>
-      <a href="#comparativa">¿Por qué a la medida?</a>
-      <a href="#proceso">Cómo trabajamos</a>
+      <a href="#comparativa">A la medida</a>
+      <a href="#proceso">Proceso</a>
       <a href="#faq">Preguntas</a>
-      <a class="btn btn-primary" href="https://wa.me/524271492766" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+      <a class="btn btn--accent" href="https://wa.me/524271492766" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
     </div>
   </header>
 
   <main>
-    <!-- ===== HERO ===== -->
+    <!-- ============ HERO ============ -->
     <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <span class="eyebrow">Soluciones integrales a la medida</span>
-          <h1>Digitaliza tu negocio con software que <span class="hl">cuadra contigo</span>.</h1>
-          <p class="lead">
-            Soluciones integrales hechas a tu medida para cobrar a tiempo, vender más rápido y llenar tu agenda.
-            Sin módulos de relleno ni funciones que nunca vas a usar.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary btn-lg" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20para%20digitalizar%20mi%20negocio" target="_blank" rel="noopener">
-              <span class="wa-ico" aria-hidden="true">✆</span> Cotización gratis por WhatsApp
+      <div class="wrap hero__in">
+        <div class="hero__copy">
+          <span class="kicker">Soluciones digitales a la medida</span>
+          <h1>Software hecho <span class="accent">a la medida</span> de tu negocio.</h1>
+          <p class="hero__lead">Construimos solo los sistemas que tu negocio necesita —cobranza, ventas, citas— diseñados sobre tu forma de trabajar. Sin módulos de relleno ni funciones que nunca vas a usar.</p>
+          <div class="hero__cta">
+            <a class="btn btn--accent btn--lg" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n%20para%20digitalizar%20mi%20negocio" target="_blank" rel="noopener">
+              <svg class="i ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>
+              Cotización gratis por WhatsApp
             </a>
-            <a class="btn btn-dark-ghost btn-lg" href="#soluciones">Ver soluciones ↓</a>
+            <a class="btn btn--ghost btn--lg" href="#soluciones">
+              Ver soluciones
+              <svg class="i ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+            </a>
           </div>
-          <ul class="hero-badges">
-            <li>✓ Sin mensualidades ocultas</li>
-            <li>✓ Instalación y capacitación incluidas</li>
-            <li>✓ Soporte directo con quien lo desarrolló</li>
-          </ul>
         </div>
-        <div class="hero-visual">
-          <img src="assets/hero-dashboard.svg" alt="Panel de control mostrando ingresos, ventas y cobranza" width="620" height="480" loading="eager" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== TRUST BAR / STATS ===== -->
-    <section class="stats" aria-label="Resultados">
-      <div class="container stats-grid">
-        <div class="stat"><strong data-count="3">3</strong><span>Sistemas listos para tu negocio</span></div>
-        <div class="stat"><strong data-count="90" data-suffix="%">90%</strong><span>Menos tiempo en tareas manuales</span></div>
-        <div class="stat"><strong data-count="100" data-suffix="%">100%</strong><span>Adaptado a cómo trabajas tú</span></div>
-        <div class="stat"><strong>1&nbsp;a&nbsp;1</strong><span>Atención directa, sin call centers</span></div>
-      </div>
-    </section>
-
-    <!-- ===== PROBLEM ===== -->
-    <section class="problem section">
-      <div class="container">
-        <div class="section-head center">
-          <span class="eyebrow">¿Te suena familiar?</span>
-          <h2>El papel, el cuaderno y el Excel te están costando clientes</h2>
-        </div>
-        <div class="problem-grid">
-          <div class="prob-card">
-            <div class="prob-ico">📉</div>
-            <h3>Cuentas por cobrar olvidadas</h3>
-            <p>Clientes que se te pasan, deudas sin seguimiento y dinero que nunca regresa a tu bolsillo.</p>
-          </div>
-          <div class="prob-card">
-            <div class="prob-ico">🐌</div>
-            <h3>Ventas lentas y errores de caja</h3>
-            <p>Cobrar con calculadora, no saber qué se vende más y cuadrar la caja a mano cada noche.</p>
-          </div>
-          <div class="prob-card">
-            <div class="prob-ico">📵</div>
-            <h3>Agenda hecha un caos</h3>
-            <p>Citas empalmadas, clientes que no llegan y horas muertas que pudiste haber vendido.</p>
-          </div>
+        <div class="hero__figure">
+          <figure class="figure">
+            <figcaption class="figure__bar"><span>Fig. 01 — Panel de control</span><span>en vivo</span></figcaption>
+            <div class="figure__body">
+              <img src="assets/hero-dashboard.svg" alt="Panel de control con ingresos, ventas y cobranza" width="620" height="480" loading="eager" />
+            </div>
+          </figure>
         </div>
       </div>
     </section>
 
-    <!-- ===== SOLUTIONS ===== -->
-    <section class="solutions section" id="soluciones">
-      <div class="container">
-        <div class="section-head center">
-          <span class="eyebrow">Nuestras soluciones</span>
-          <h2>Tres sistemas que ponen tu negocio en orden</h2>
-          <p class="section-sub">Puedes empezar con uno o combinarlos. Todo se adapta a tu forma de trabajar.</p>
+    <!-- ============ SPECS / STATS ============ -->
+    <section class="specs" aria-label="Cifras">
+      <div class="wrap">
+        <div class="specs__in">
+          <div class="spec"><div class="spec__n">03</div><div class="spec__l">Sistemas listos para tu negocio</div></div>
+          <div class="spec"><div class="spec__n">100%</div><div class="spec__l">Diseñado sobre cómo trabajas tú</div></div>
+          <div class="spec"><div class="spec__n">1:1</div><div class="spec__l">Soporte directo, sin call centers</div></div>
+          <div class="spec"><div class="spec__n">0</div><div class="spec__l">Funciones de relleno que no usas</div></div>
         </div>
+      </div>
+    </section>
 
-        <!-- Solution 1 -->
-        <article class="sol-row">
-          <div class="sol-media">
-            <img src="assets/mockup-cartera.svg" alt="Sistema de Cartera y Cobranza con gráficas de saldos" width="640" height="440" loading="lazy" />
+    <!-- ============ PROBLEM ============ -->
+    <section class="section wrap">
+      <div class="sec-head">
+        <span class="kicker">El problema</span>
+        <h2>El cuaderno y el Excel te están costando clientes</h2>
+      </div>
+      <div class="prob__grid">
+        <div class="prob__cell">
+          <span class="prob__idx mono">01 / CARTERA</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <h3>Cobros que se te pasan</h3>
+          <p>Clientes que te deben y se te olvidan, sin seguimiento y sin fecha. Dinero que nunca regresa a tu bolsillo.</p>
+        </div>
+        <div class="prob__cell">
+          <span class="prob__idx mono">02 / VENTAS</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6l16 .001"/><path d="M4 6l1.6 9.2a2 2 0 0 0 2 1.8h7.8a2 2 0 0 0 2-1.6L20 8H5"/><circle cx="9" cy="20" r="1.2"/><circle cx="16" cy="20" r="1.2"/></svg>
+          <h3>Caja lenta y con errores</h3>
+          <p>Cobrar con calculadora, no saber qué se vende más y cuadrar la caja a mano cada noche.</p>
+        </div>
+        <div class="prob__cell">
+          <span class="prob__idx mono">03 / CITAS</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/><path d="M10 14l4 4M14 14l-4 4"/></svg>
+          <h3>Agenda hecha un caos</h3>
+          <p>Citas empalmadas, clientes que no llegan y horas muertas que pudiste haber vendido.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOLUTIONS ============ -->
+    <section id="soluciones" class="wrap" style="padding-top:24px">
+      <div class="sec-head">
+        <span class="kicker">Soluciones</span>
+        <h2>Tres módulos que ponen tu negocio en orden</h2>
+        <p>Empieza con uno o combínalos. Cada uno se construye a la medida de tu operación.</p>
+      </div>
+
+      <!-- 01 -->
+      <article class="mod">
+        <div class="mod__grid">
+          <div class="mod__meta">
+            <div class="mod__num">01</div>
+            <div class="mod__tag">Módulo</div>
           </div>
-          <div class="sol-copy">
-            <span class="tag tag-green">Cartera &amp; Cobranza</span>
+          <div class="mod__copy">
+            <span class="kicker kicker--plain">Cartera &amp; Cobranza</span>
             <h3>Cobra a tiempo, sin perseguir a nadie</h3>
-            <p>Controla quién te debe, cuánto y desde cuándo. Recordatorios automáticos, historial de pagos y reportes claros para que tu dinero no se quede en la calle.</p>
-            <ul class="check-list">
-              <li>Estado de cuenta por cliente en segundos</li>
-              <li>Alertas de vencimientos y saldos pendientes</li>
-              <li>Reportes de cobranza y flujo de efectivo</li>
+            <p>Controla quién te debe, cuánto y desde cuándo, con recordatorios y estados de cuenta claros para que tu dinero no se quede en la calle.</p>
+            <ul class="mod__list">
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Estado de cuenta por cliente en segundos</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Alertas de vencimientos y saldos pendientes</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Reportes de cobranza y flujo de efectivo</li>
             </ul>
-            <a class="btn btn-outline" href="https://wa.me/524271492766?text=Me%20interesa%20el%20sistema%20de%20Cartera%20y%20Cobranza" target="_blank" rel="noopener">Quiero este sistema →</a>
+            <a class="btn btn--ghost" href="https://wa.me/524271492766?text=Me%20interesa%20el%20m%C3%B3dulo%20de%20Cartera%20y%20Cobranza" target="_blank" rel="noopener">Solicitar este módulo
+              <svg class="i ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           </div>
-        </article>
+          <div class="mod__media">
+            <figure class="figure"><figcaption class="figure__bar"><span>Cartera</span><span>captura</span></figcaption>
+              <div class="figure__body"><img src="assets/mockup-cartera.svg" alt="Sistema de cartera y cobranza" width="640" height="440" loading="lazy" /></div>
+            </figure>
+          </div>
+        </div>
+      </article>
 
-        <!-- Solution 2 -->
-        <article class="sol-row reverse">
-          <div class="sol-media">
-            <img src="assets/mockup-pos.svg" alt="Pantalla de Punto de Venta con productos y ticket de cobro" width="640" height="440" loading="lazy" />
+      <!-- 02 -->
+      <article class="mod mod--rev">
+        <div class="mod__grid">
+          <div class="mod__meta">
+            <div class="mod__num">02</div>
+            <div class="mod__tag">Módulo</div>
           </div>
-          <div class="sol-copy">
-            <span class="tag tag-blue">Punto de Venta</span>
+          <div class="mod__copy">
+            <span class="kicker kicker--plain">Punto de Venta</span>
             <h3>Vende más rápido y cuadra tu caja sin dolores</h3>
-            <p>Cobra en segundos, controla tu inventario y sabe exactamente cuánto vendiste al cerrar el día. Menos errores, más tiempo para atender a tus clientes.</p>
-            <ul class="check-list">
-              <li>Cobro rápido por producto o categoría</li>
-              <li>Control de inventario y productos más vendidos</li>
-              <li>Corte de caja automático al final del día</li>
+            <p>Cobra en segundos, controla tu inventario y sabe exactamente cuánto vendiste al cerrar el día. Menos errores, más tiempo para tus clientes.</p>
+            <ul class="mod__list">
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Cobro rápido por producto o categoría</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Control de inventario y más vendidos</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Corte de caja automático al cerrar</li>
             </ul>
-            <a class="btn btn-outline" href="https://wa.me/524271492766?text=Me%20interesa%20el%20sistema%20de%20Punto%20de%20Venta" target="_blank" rel="noopener">Quiero este sistema →</a>
+            <a class="btn btn--ghost" href="https://wa.me/524271492766?text=Me%20interesa%20el%20m%C3%B3dulo%20de%20Punto%20de%20Venta" target="_blank" rel="noopener">Solicitar este módulo
+              <svg class="i ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           </div>
-        </article>
+          <div class="mod__media">
+            <figure class="figure"><figcaption class="figure__bar"><span>Punto de venta</span><span>captura</span></figcaption>
+              <div class="figure__body"><img src="assets/mockup-pos.svg" alt="Pantalla de punto de venta" width="640" height="440" loading="lazy" /></div>
+            </figure>
+          </div>
+        </div>
+      </article>
 
-        <!-- Solution 3 -->
-        <article class="sol-row">
-          <div class="sol-media">
-            <img src="assets/mockup-citas.svg" alt="Agenda de citas semanal con bloques de horario" width="640" height="440" loading="lazy" />
+      <!-- 03 -->
+      <article class="mod">
+        <div class="mod__grid">
+          <div class="mod__meta">
+            <div class="mod__num">03</div>
+            <div class="mod__tag">Módulo</div>
           </div>
-          <div class="sol-copy">
-            <span class="tag tag-purple">Sistema de Citas</span>
+          <div class="mod__copy">
+            <span class="kicker kicker--plain">Agenda de Citas</span>
             <h3>Llena tu agenda y aprovecha cada hora</h3>
-            <p>Organiza tus citas en una agenda visual, evita empalmes y reduce las inasistencias con recordatorios. Ideal para consultorios, estéticas, talleres y servicios a domicilio.</p>
-            <ul class="check-list">
-              <li>Agenda visual por día y por semana</li>
-              <li>Recordatorios para que tus clientes no falten</li>
-              <li>Historial de clientes y servicios realizados</li>
+            <p>Organiza tus citas en una agenda visual, evita empalmes y reduce inasistencias con recordatorios. Ideal para consultorios, estéticas, talleres y servicios a domicilio.</p>
+            <ul class="mod__list">
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Agenda visual por día y por semana</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Recordatorios para que no falten</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Historial de clientes y servicios</li>
             </ul>
-            <a class="btn btn-outline" href="https://wa.me/524271492766?text=Me%20interesa%20el%20sistema%20de%20Citas" target="_blank" rel="noopener">Quiero este sistema →</a>
+            <a class="btn btn--ghost" href="https://wa.me/524271492766?text=Me%20interesa%20el%20m%C3%B3dulo%20de%20Agenda%20de%20Citas" target="_blank" rel="noopener">Solicitar este módulo
+              <svg class="i ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           </div>
-        </article>
-      </div>
+          <div class="mod__media">
+            <figure class="figure"><figcaption class="figure__bar"><span>Agenda</span><span>captura</span></figcaption>
+              <div class="figure__body"><img src="assets/mockup-citas.svg" alt="Agenda de citas" width="640" height="440" loading="lazy" /></div>
+            </figure>
+          </div>
+        </div>
+      </article>
     </section>
 
-    <!-- ===== COMPARE: ERPs grandes vs a la medida ===== -->
-    <section class="compare section" id="comparativa">
-      <div class="container">
-        <div class="section-head center">
-          <span class="eyebrow">¿Por qué a la medida?</span>
+    <!-- ============ COMPARE ============ -->
+    <section id="comparativa" class="compare section">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="kicker">Por qué a la medida</span>
           <h2>Los ERP gigantes no se hicieron para tu negocio</h2>
-          <p class="section-sub">SAP, Odoo y similares son excelentes… para empresas grandes con departamento de sistemas. Para una pyme suelen ser demasiado software y demasiado costo.</p>
+          <p>SAP, Odoo y similares son excelentes para empresas grandes con departamento de sistemas. Para una pyme suelen ser demasiado software y demasiado costo.</p>
         </div>
 
-        <div class="stat-banner">
-          <strong>80%</strong>
-          <p>de las funciones de un software promedio <b>rara vez o nunca se usan</b>. ¿Por qué pagar por ellas?</p>
-          <small>Fuente: Pendo, Feature Adoption Report — análisis de 615 productos de software.</small>
-        </div>
-
-        <div class="comp-grid">
-          <div class="comp-card">
-            <h3>SAP Business One</h3>
-            <span class="comp-kind">ERP corporativo</span>
-            <p>Robusto y completo, pensado para empresas medianas y grandes con equipo de TI dedicado.</p>
-            <span class="comp-flag">Costo total a 3 años: difícilmente baja de $1.5M MXN</span>
-          </div>
-          <div class="comp-card">
-            <h3>Odoo</h3>
-            <span class="comp-kind">ERP modular</span>
-            <p>Flexible y modular, pero necesitas un partner para implementarlo y cada personalización se cobra aparte.</p>
-            <span class="comp-flag">Implementación típica: $100 mil – $500 mil MXN</span>
-          </div>
-          <div class="comp-card">
-            <h3>Suites genéricas</h3>
-            <span class="comp-kind">CONTPAQi · Zoho · Alegra</span>
-            <p>Más accesibles, pero son módulos iguales para todos: tu negocio se tiene que adaptar al software, no al revés.</p>
-            <span class="comp-flag">Licencias y rentas por usuario, cada año</span>
-          </div>
-          <div class="comp-card highlight">
-            <h3>Kuadra</h3>
-            <span class="comp-kind">A la medida</span>
-            <p>Solo lo que tu negocio necesita, diseñado sobre tu forma de trabajar. Usas el 100% de lo que pagas, y la solución es tuya.</p>
-            <span class="comp-flag">✓ Integral, a tu medida y a precio de pyme</span>
+        <div class="bigstat">
+          <div class="bigstat__n">80%</div>
+          <div>
+            <p class="bigstat__t">de las funciones de un software promedio <b>rara vez o nunca se usan.</b> ¿Por qué pagar por ellas?</p>
+            <span class="bigstat__src">Fuente: Pendo · Feature Adoption Report — análisis de 615 productos de software</span>
           </div>
         </div>
-        <p class="comp-note">Los rangos de costos son estimaciones públicas de mercado en México y pueden variar según el proveedor y el alcance.</p>
+
+        <div class="matrix__scroll">
+          <table class="matrix">
+            <colgroup><col /><col /><col /><col /><col class="is-us" /></colgroup>
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">SAP Business One</th>
+                <th scope="col">Odoo</th>
+                <th scope="col">Suites genéricas</th>
+                <th scope="col" class="is-us">Kuadra</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Enfoque</th>
+                <td>Empresa mediana / grande</td>
+                <td>Empresa con equipo TI</td>
+                <td>Genérico para todos</td>
+                <td class="is-us">Tu pyme, a tu medida</td>
+              </tr>
+              <tr>
+                <th scope="row">Costo total (3 años)</th>
+                <td>Desde ~$1.5M MXN</td>
+                <td>$100k – $500k MXN</td>
+                <td>Renta por usuario, cada año</td>
+                <td class="is-us">A precio de pyme</td>
+              </tr>
+              <tr>
+                <th scope="row">Se adapta a ti</th>
+                <td>Parcial, con consultoría</td>
+                <td>Sí, pero se cobra aparte</td>
+                <td>No — te adaptas tú</td>
+                <td class="is-us"><span class="yes">Sí, de raíz</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Usas lo que pagas</th>
+                <td>~20% de funciones</td>
+                <td>Solo módulos activos</td>
+                <td>Módulos iguales para todos</td>
+                <td class="is-us"><span class="yes">100%</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Soporte</th>
+                <td>Partner / distribuidor</td>
+                <td>Partner externo</td>
+                <td>Mesa de ayuda genérica</td>
+                <td class="is-us">Directo con quien lo hizo</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="compare__note">// Los rangos de costos son estimaciones públicas de mercado en México y pueden variar según proveedor y alcance.</p>
       </div>
     </section>
 
-    <!-- ===== PROCESS ===== -->
-    <section class="process section" id="proceso">
-      <div class="container">
-        <div class="section-head center">
-          <span class="eyebrow">Cómo trabajamos</span>
-          <h2>De tu idea a tu negocio digitalizado en 4 pasos</h2>
-        </div>
-        <ol class="steps">
-          <li class="step">
-            <div class="step-num">1</div>
-            <h3>Platicamos</h3>
-            <p>Me cuentas cómo trabajas hoy y qué te quita más tiempo. Sin tecnicismos.</p>
-          </li>
-          <li class="step">
-            <div class="step-num">2</div>
-            <h3>Propuesta a la medida</h3>
-            <p>Te presento la solución ideal y una cotización clara, sin sorpresas.</p>
-          </li>
-          <li class="step">
-            <div class="step-num">3</div>
-            <h3>Instalación y capacitación</h3>
-            <p>Dejo el sistema funcionando y te enseño a usarlo a ti y a tu equipo.</p>
-          </li>
-          <li class="step">
-            <div class="step-num">4</div>
-            <h3>Soporte cercano</h3>
-            <p>Cualquier duda o ajuste, hablas directo conmigo. Sin filas ni robots.</p>
-          </li>
-        </ol>
+    <!-- ============ PROCESS ============ -->
+    <section id="proceso" class="section wrap">
+      <div class="sec-head">
+        <span class="kicker">Proceso</span>
+        <h2>De tu idea a tu negocio digitalizado en 4 pasos</h2>
+      </div>
+      <div class="proc__grid">
+        <div class="proc__step"><span class="proc__n">PASO 01</span><h3>Platicamos</h3><p>Me cuentas cómo trabajas hoy y qué te quita más tiempo. Sin tecnicismos.</p></div>
+        <div class="proc__step"><span class="proc__n">PASO 02</span><h3>Propuesta a la medida</h3><p>Te presento la solución ideal y una cotización clara, sin sorpresas.</p></div>
+        <div class="proc__step"><span class="proc__n">PASO 03</span><h3>Instalación y capacitación</h3><p>Dejo el sistema funcionando y te enseño a usarlo a ti y a tu equipo.</p></div>
+        <div class="proc__step"><span class="proc__n">PASO 04</span><h3>Soporte cercano</h3><p>Cualquier duda o ajuste, hablas directo conmigo. Sin filas ni robots.</p></div>
       </div>
     </section>
 
-    <!-- ===== BENEFITS ===== -->
-    <section class="benefits section" id="beneficios">
-      <div class="container">
-        <div class="section-head center">
-          <span class="eyebrow">Por qué Kuadra</span>
-          <h2>Software que usas al 100%, no al 20%</h2>
-        </div>
-        <div class="ben-grid">
-          <div class="ben-card"><div class="ben-ico">🎯</div><h3>Hecho para ti</h3><p>Nada de sistemas genéricos. Se adapta a tu negocio, no al revés.</p></div>
-          <div class="ben-card"><div class="ben-ico">⚡</div><h3>Fácil de usar</h3><p>Pensado para que cualquier persona de tu equipo lo domine rápido.</p></div>
-          <div class="ben-card"><div class="ben-ico">🔒</div><h3>Tu información segura</h3><p>Tus datos y los de tus clientes siempre bajo tu control.</p></div>
-          <div class="ben-card"><div class="ben-ico">💬</div><h3>Soporte real</h3><p>Hablas directo con quien desarrolló tu sistema, no con un call center.</p></div>
-          <div class="ben-card"><div class="ben-ico">💰</div><h3>Precio justo</h3><p>Soluciones al alcance de un pequeño negocio, con retorno claro.</p></div>
-          <div class="ben-card"><div class="ben-ico">📈</div><h3>Crece contigo</h3><p>Empieza con un sistema y súmale los demás cuando lo necesites.</p></div>
-        </div>
+    <!-- ============ BENEFITS ============ -->
+    <section class="section wrap">
+      <div class="sec-head">
+        <span class="kicker">Por qué Kuadra</span>
+        <h2>Software que usas al 100%, no al 20%</h2>
+      </div>
+      <div class="ben__grid">
+        <div class="ben"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg><h3>Hecho para ti</h3><p>Nada de sistemas genéricos: se adapta a tu negocio, no al revés.</p></div>
+        <div class="ben"><svg class="ico" viewBox="0 0 24 24"><path d="M13 3L4 14h7l-1 7 9-11h-7z"/></svg><h3>Fácil de usar</h3><p>Pensado para que cualquier persona de tu equipo lo domine rápido.</p></div>
+        <div class="ben"><svg class="ico" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><h3>Tu información segura</h3><p>Tus datos y los de tus clientes, siempre bajo tu control.</p></div>
+        <div class="ben"><svg class="ico" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg><h3>Soporte real</h3><p>Hablas directo con quien desarrolló tu sistema, no con un call center.</p></div>
+        <div class="ben"><svg class="ico" viewBox="0 0 24 24"><path d="M4 5h9l7 7-9 9-7-7z"/><circle cx="8.5" cy="8.5" r="1.4"/></svg><h3>Precio justo</h3><p>Soluciones al alcance de un pequeño negocio, con retorno claro.</p></div>
+        <div class="ben"><svg class="ico" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 8V4h-4"/></svg><h3>Crece contigo</h3><p>Empieza con un módulo y súmale los demás cuando lo necesites.</p></div>
       </div>
     </section>
 
-    <!-- ===== TESTIMONIALS ===== -->
-    <section class="testimonials section">
-      <div class="container">
-        <div class="section-head center">
-          <span class="eyebrow">Lo que buscan los negocios</span>
-          <h2>Resultados que puedes esperar</h2>
-        </div>
-        <div class="test-grid">
-          <blockquote class="test-card">
-            <p>“Antes cobraba con cuaderno y siempre se me perdía alguna cuenta. Ahora sé exactamente quién me debe y cobro a tiempo.”</p>
-            <footer><strong>Dueño de distribuidora</strong><span>Cartera &amp; Cobranza</span></footer>
-          </blockquote>
-          <blockquote class="test-card">
-            <p>“El corte de caja que me tomaba una hora ahora sale solo. Y veo al instante qué producto se vende más.”</p>
-            <footer><strong>Encargada de tienda</strong><span>Punto de Venta</span></footer>
-          </blockquote>
-          <blockquote class="test-card">
-            <p>“Se acabaron las citas empalmadas y bajaron muchísimo los clientes que no llegaban.”</p>
-            <footer><strong>Dueña de estética</strong><span>Sistema de Citas</span></footer>
-          </blockquote>
-        </div>
-        <p class="test-note">Ejemplos ilustrativos del tipo de resultados que buscamos para tu negocio.</p>
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section wrap">
+      <div class="sec-head">
+        <span class="kicker">Resultados</span>
+        <h2>Lo que puedes esperar</h2>
       </div>
+      <div class="quotes">
+        <blockquote class="quote">
+          <p>“Ahora sé exactamente quién me debe y cobro a tiempo, sin que se me pierda ninguna cuenta.”</p>
+          <footer><b>Distribuidora</b> Módulo 01 · Cartera</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“El corte de caja que me tomaba una hora ahora sale solo, y veo qué se vende más.”</p>
+          <footer><b>Tienda de abarrotes</b> Módulo 02 · Punto de venta</footer>
+        </blockquote>
+        <blockquote class="quote">
+          <p>“Se acabaron las citas empalmadas y bajaron mucho los clientes que no llegaban.”</p>
+          <footer><b>Estética</b> Módulo 03 · Agenda</footer>
+        </blockquote>
+      </div>
+      <p class="quotes__note">// Ejemplos ilustrativos del tipo de resultados que buscamos para tu negocio.</p>
     </section>
 
-    <!-- ===== FAQ ===== -->
-    <section class="faq section" id="faq">
-      <div class="container narrow">
-        <div class="section-head center">
-          <span class="eyebrow">Preguntas frecuentes</span>
-          <h2>Todo lo que quieres saber antes de empezar</h2>
-        </div>
-        <div class="faq-list">
-          <details class="faq-item">
-            <summary>¿Necesito saber de computación para usarlo?<span class="chev">+</span></summary>
-            <p>No. Los sistemas están diseñados para ser fáciles e intuitivos, y la capacitación está incluida. Si sabes usar un celular, puedes usarlos.</p>
-          </details>
-          <details class="faq-item">
-            <summary>¿Puedo empezar solo con un sistema?<span class="chev">+</span></summary>
-            <p>Claro. Puedes comenzar con el que más te urja (Cartera, Punto de Venta o Citas) y sumar los demás cuando lo necesites.</p>
-          </details>
-          <details class="faq-item">
-            <summary>¿El sistema se adapta a mi forma de trabajar?<span class="chev">+</span></summary>
-            <p>Sí. Cada solución se ajusta a tu negocio: tus productos, tus clientes, tus servicios y tus procesos.</p>
-          </details>
-          <details class="faq-item">
-            <summary>¿Qué pasa si tengo un problema o una duda?<span class="chev">+</span></summary>
-            <p>Me escribes directo por WhatsApp. El soporte es personal, con la persona que desarrolló tu sistema.</p>
-          </details>
-          <details class="faq-item">
-            <summary>¿Por qué no mejor un ERP como SAP u Odoo?<span class="chev">+</span></summary>
-            <p>Son grandes herramientas, pero están pensadas para empresas con presupuesto y personal de sistemas. La mayoría de las pymes termina pagando licencias e implementaciones costosas para usar una fracción de las funciones. Con una solución a la medida pagas solo por lo que sí vas a usar.</p>
-          </details>
-          <details class="faq-item">
-            <summary>¿Cuánto cuesta?<span class="chev">+</span></summary>
-            <p>Depende de qué sistema necesites y qué tan a la medida lo quieras. Escríbeme por WhatsApp y te doy una cotización clara y sin compromiso.</p>
-          </details>
-        </div>
+    <!-- ============ FAQ ============ -->
+    <section id="faq" class="section wrap faq">
+      <div class="sec-head">
+        <span class="kicker">Preguntas frecuentes</span>
+        <h2>Lo que quieres saber antes de empezar</h2>
       </div>
-    </section>
-
-    <!-- ===== FINAL CTA ===== -->
-    <section class="cta-final" id="contacto">
-      <div class="container cta-inner">
-        <h2>¿Listo para digitalizar tu negocio?</h2>
-        <p>Cuéntame qué necesitas y te preparo una propuesta a tu medida. La primera plática es gratis.</p>
-        <div class="cta-actions">
-          <a class="btn btn-primary btn-lg" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20digitalizar%20mi%20negocio%20con%20Kuadra" target="_blank" rel="noopener">
-            <span class="wa-ico" aria-hidden="true">✆</span> Escríbeme por WhatsApp
-          </a>
-          <a class="btn btn-light btn-lg" href="https://wa.me/524271492766" target="_blank" rel="noopener">WhatsApp: 427 149 2766</a>
-        </div>
-      </div>
+      <details class="faq__item">
+        <summary><span class="faq__q">Q1</span> ¿Necesito saber de computación para usarlo?<span class="plus">+</span></summary>
+        <p>No. Los sistemas están diseñados para ser fáciles e intuitivos, y la capacitación está incluida. Si sabes usar un celular, puedes usarlos.</p>
+      </details>
+      <details class="faq__item">
+        <summary><span class="faq__q">Q2</span> ¿Puedo empezar solo con un módulo?<span class="plus">+</span></summary>
+        <p>Claro. Puedes comenzar con el que más te urja —cartera, punto de venta o citas— y sumar los demás cuando lo necesites.</p>
+      </details>
+      <details class="faq__item">
+        <summary><span class="faq__q">Q3</span> ¿Por qué no mejor un ERP como SAP u Odoo?<span class="plus">+</span></summary>
+        <p>Son grandes herramientas, pero están pensadas para empresas con presupuesto y personal de sistemas. La mayoría de las pymes termina pagando licencias e implementaciones costosas para usar una fracción de las funciones. Con una solución a la medida pagas solo por lo que sí vas a usar.</p>
+      </details>
+      <details class="faq__item">
+        <summary><span class="faq__q">Q4</span> ¿Qué pasa si tengo un problema o una duda?<span class="plus">+</span></summary>
+        <p>Me escribes directo por WhatsApp. El soporte es personal, con la persona que desarrolló tu sistema.</p>
+      </details>
+      <details class="faq__item">
+        <summary><span class="faq__q">Q5</span> ¿Cuánto cuesta?<span class="plus">+</span></summary>
+        <p>Depende de qué módulo necesites y qué tan a la medida lo quieras. Escríbeme por WhatsApp y te doy una cotización clara y sin compromiso.</p>
+      </details>
     </section>
   </main>
 
-  <!-- ===== FOOTER ===== -->
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <img src="assets/logo-light.svg" alt="Kuadra Soluciones Digitales" width="188" height="40" />
-        <p>Soluciones integrales hechas a la medida para digitalizar pequeños negocios. Cobra a tiempo, vende más y organiza tu agenda.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Soluciones</h4>
-        <a href="#soluciones">Cartera &amp; Cobranza</a>
-        <a href="#soluciones">Punto de Venta</a>
-        <a href="#soluciones">Sistema de Citas</a>
-      </div>
-      <div class="footer-col">
-        <h4>Contacto</h4>
-        <a href="https://wa.me/524271492766" target="_blank" rel="noopener">WhatsApp: 427 149 2766</a>
+  <!-- ============ CTA ============ -->
+  <section class="cta" id="contacto">
+    <div class="wrap cta__in">
+      <h2>¿Listo para digitalizar tu negocio?</h2>
+      <div class="cta__side">
+        <span class="kicker">Primera plática gratis</span>
+        <p style="color:rgba(255,255,255,.9)">Cuéntame qué necesitas y te preparo una propuesta a tu medida.</p>
+        <a class="btn btn--on-night btn--lg" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20digitalizar%20mi%20negocio%20con%20Kuadra" target="_blank" rel="noopener">
+          <svg class="i ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>
+          WhatsApp · 427 149 2766
+        </a>
       </div>
     </div>
-    <div class="container footer-bottom">
-      <span>© <span id="year">2026</span> Kuadra Soluciones Digitales. Todos los derechos reservados.</span>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="ft">
+    <div class="wrap">
+      <div class="ft__grid">
+        <div class="ft__brand">
+          <img src="assets/logo-light.svg" alt="Kuadra Soluciones Digitales" width="188" height="40" />
+          <p>Soluciones digitales a la medida para pequeños negocios. Solo lo que tu negocio usa, sin pagar por lo que no.</p>
+        </div>
+        <div class="ft__col">
+          <h4>Módulos</h4>
+          <a href="#soluciones">Cartera &amp; Cobranza</a>
+          <a href="#soluciones">Punto de Venta</a>
+          <a href="#soluciones">Agenda de Citas</a>
+        </div>
+        <div class="ft__col">
+          <h4>Contacto</h4>
+          <a href="https://wa.me/524271492766" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>
+            WhatsApp · 427 149 2766
+          </a>
+        </div>
+      </div>
+      <div class="ft__bot">
+        <span>© <span id="year">2026</span> Kuadra Soluciones Digitales</span>
+        <span>Hecho a la medida · México</span>
+      </div>
     </div>
   </footer>
 
-  <!-- Floating WhatsApp -->
-  <a class="wa-float" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20las%20soluciones%20de%20Kuadra" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
-    <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><path fill="#fff" d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.2-.4C5.5 18.4 5 16.7 5 15 5 9 9.9 4.1 16 4.1S27 9 27 15 22.1 24.8 16 24.8zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2s-.8 1-1 1.2-.4.2-.7 0c-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1s0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5s0-.4 0-.6c-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1.1 1-1.1 2.6 1.1 3 1.3 3.2c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.8.7.8.2 1.5.2 2 .1.6-.1 1.8-.7 2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+  <a class="wafloat" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20informaci%C3%B3n%20de%20Kuadra" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="#1b39f4" d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.7 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.2-.4C5.5 18.4 5 16.7 5 15 5 9 9.9 4.1 16 4.1S27 9 27 15 22.1 24.8 16 24.8zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2s-.8 1-1 1.2-.4.2-.7 0c-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1s0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5s0-.4 0-.6c-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1.1 1-1.1 2.6 1.1 3 1.3 3.2c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.8.7.8.2 1.5.2 2 .1.6-.1 1.8-.7 2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
   </a>
 
   <script src="script.js"></script>
