@@ -1,4 +1,4 @@
-# Pitbull Soluciones — Landing page
+# Kuadra — Landing page
 
 Sitio web de una sola página para ofrecer soluciones de digitalización a pequeños
 negocios: **Cartera & Cobranza**, **Punto de Venta** y **Sistema de Citas**.
@@ -50,7 +50,7 @@ información de tus clientes). Cuando tengas capturas reales de tus sistemas:
 
 - **WhatsApp / teléfono:** busca `524271492766` (WhatsApp) y `+524271492766`
   (llamadas) en `index.html` y reemplázalos si cambia el número.
-- **Marca:** el nombre "Pitbull Soluciones" está en el logo (`assets/logo*.svg`),
+- **Marca:** el nombre "Kuadra" está en el logo (`assets/logo*.svg`),
   el `<title>` y el footer.
 - **Textos:** todo el contenido está en `index.html`, bien identificado por secciones.
 
