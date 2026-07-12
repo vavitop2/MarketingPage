@@ -1,15 +1,15 @@
-<svg width="230" height="48" viewBox="0 0 230 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kuadra Soluciones Digitales">
+<svg width="238" height="48" viewBox="0 0 238 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Digitaliza Qro">
   <defs>
-    <linearGradient id="lgl" x1="2" y1="4" x2="42" y2="44" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#2563eb"/>
+    <linearGradient id="dgl" x1="10" y1="37" x2="36" y2="14" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/><stop offset="1" stop-color="#5b7bff"/>
     </linearGradient>
   </defs>
-  <rect x="2" y="4" width="40" height="40" rx="11" fill="#111c33"/>
-  <rect x="8" y="10" width="13" height="13" rx="4" fill="url(#lgl)"/>
-  <rect x="23" y="10" width="13" height="13" rx="4" fill="#2a3a58"/>
-  <rect x="8" y="25" width="13" height="13" rx="4" fill="#2a3a58"/>
-  <rect x="23" y="25" width="13" height="13" rx="4" fill="url(#lgl)" opacity="0.55"/>
-  <text x="52" y="25" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="800" fill="#ffffff">Kuadra</text>
-  <text x="52" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.6" fill="#38bdf8">SOLUCIONES DIGITALES</text>
+  <rect x="2" y="4" width="40" height="40" rx="11" fill="#1a2030"/>
+  <rect x="10" y="28" width="6.5" height="9" rx="2" fill="url(#dgl)"/>
+  <rect x="19.5" y="22" width="6.5" height="15" rx="2" fill="url(#dgl)"/>
+  <rect x="29" y="15" width="6.5" height="22" rx="2" fill="url(#dgl)"/>
+  <text x="50" y="23" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="-.3">
+    <tspan fill="#ffffff">Digitaliza</tspan><tspan fill="#38bdf8"> Qro</tspan>
+  </text>
+  <text x="51" y="39" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2.4" fill="#8a93a1">PARA TU NEGOCIO</text>
 </svg>

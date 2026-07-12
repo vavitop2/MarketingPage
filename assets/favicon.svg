@@ -1,8 +1,7 @@
 <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-  <defs><linearGradient id="f" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
-  <rect width="48" height="48" rx="12" fill="#0b1120"/>
-  <rect x="7" y="7" width="16" height="16" rx="5" fill="url(#f)"/>
-  <rect x="25" y="7" width="16" height="16" rx="5" fill="#1e293b"/>
-  <rect x="7" y="25" width="16" height="16" rx="5" fill="#1e293b"/>
-  <rect x="25" y="25" width="16" height="16" rx="5" fill="url(#f)" opacity="0.55"/>
+  <defs><linearGradient id="f" x1="13" y1="36" x2="35" y2="12" gradientUnits="userSpaceOnUse"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#1b39f4"/></linearGradient></defs>
+  <rect width="48" height="48" rx="12" fill="#0b0d12"/>
+  <rect x="12" y="28" width="7" height="10" rx="2" fill="url(#f)"/>
+  <rect x="20.5" y="21" width="7" height="17" rx="2" fill="url(#f)"/>
+  <rect x="29" y="13" width="7" height="25" rx="2" fill="url(#f)"/>
 </svg>
