@@ -1,9 +1,9 @@
-# Digitaliza Qro — Landing page
+# Digitaliza Qro: Landing page
 
 Sitio web de una sola página para ofrecer soluciones de digitalización a pequeños
 negocios: **Cartera & Cobranza**, **Punto de Venta** y **Sistema de Citas**.
 
-Hecho con HTML, CSS y JavaScript puro — **sin dependencias ni pasos de compilación**.
+Hecho con HTML, CSS y JavaScript puro, **sin dependencias ni pasos de compilación**.
 Se puede publicar tal cual en GitHub Pages, Netlify, Vercel o cualquier hosting estático.
 
 ## Estructura
