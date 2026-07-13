@@ -172,6 +172,17 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:800;line-height:1.02;letter
 .mod--rev .mod__media{order:-1}
 @media(min-width:961px){.mod--rev .mod__grid{grid-template-columns:88px 1fr 1fr}.mod--rev .mod__meta{order:0}.mod--rev .mod__copy{order:2}.mod--rev .mod__media{order:1}}
 
+/* ============================================================ PACKAGES */
+.pack-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.pack{padding:30px 26px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column}
+.pack__tag{display:inline-block;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-size:11px;margin-bottom:16px}
+.pack>.ico{color:var(--accent);margin-bottom:16px}
+.pack h3{font-size:1.1rem;margin-bottom:9px}
+.pack>p{color:var(--ink-2);font-size:.93rem;margin-bottom:18px}
+.pack .mod__list{margin-bottom:22px}
+.pack .mod__list li{font-size:.9rem;padding:10px 0}
+.pack .btn{margin-top:auto;align-self:flex-start}
+
 /* ============================================================ COMPARE (matrix) */
 .compare{background:var(--night);color:var(--on-night)}
 .compare .kicker{color:var(--on-night-mut)}
@@ -280,6 +291,8 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:800;line-height:1.02;letter
   .proc__step:nth-child(3),.proc__step:nth-child(4){border-top:1px solid var(--line)}
   .proc__step:nth-child(3){border-left:0}
   .ben__grid{grid-template-columns:1fr 1fr}
+  .pack-grid{grid-template-columns:1fr 1fr}
+  .pack:nth-child(odd){border-left:0}
   .quotes{grid-template-columns:1fr}
   .quote{border-left:0;border-top:1px solid var(--line)}
   .quote:first-child{border-top:0}
@@ -288,7 +301,8 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:800;line-height:1.02;letter
 @media(max-width:560px){
   body{font-size:16px}
   .section{padding-block:60px}
-  .specs__in,.proc__grid,.ben__grid{grid-template-columns:1fr}
+  .specs__in,.proc__grid,.ben__grid,.pack-grid{grid-template-columns:1fr}
+  .pack{border-left:0!important;border-right:0}
   .spec,.proc__step{border-left:0!important}
   .spec:nth-child(n){border-top:1px solid var(--line)}
   .spec:first-child{border-top:0}
@@ -314,6 +328,7 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:800;line-height:1.02;letter
       </a>
       <nav class="nav" aria-label="Principal">
         <a href="#soluciones">Soluciones</a>
+        <a href="#paquetes">Paquetes</a>
         <a href="#comparativa">A la medida</a>
         <a href="#proceso">Proceso</a>
         <a href="#faq">Preguntas</a>
@@ -326,6 +341,7 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:800;line-height:1.02;letter
     </div>
     <div class="mnav" id="mnav">
       <a href="#soluciones">Soluciones</a>
+      <a href="#paquetes">Paquetes</a>
       <a href="#comparativa">A la medida</a>
       <a href="#proceso">Proceso</a>
       <a href="#faq">Preguntas</a>
@@ -491,6 +507,70 @@ h1,h2,h3,h4{font-family:var(--f-display);font-weight:800;line-height:1.02;letter
           </div>
         </div>
       </article>
+    </section>
+
+    <!-- ============ PACKAGES ============ -->
+    <section id="paquetes" class="section wrap">
+      <div class="sec-head">
+        <span class="kicker">Paquetes de digitalización</span>
+        <h2>Más que software: paquetes completos para arrancar</h2>
+        <p>Desde instalarlo en el equipo que ya tienes, hasta un paquete completo con equipo nuevo, listo para operar desde el primer día.</p>
+      </div>
+      <div class="pack-grid">
+        <div class="pack">
+          <span class="pack__tag mono">Solo software</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/></svg>
+          <h3>Instalación en tu equipo actual</h3>
+          <p>Configuramos el sistema en la computadora o tablet que ya tienes. La opción más rápida y económica si tu equipo funciona bien.</p>
+          <ul class="mod__list">
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Se instala en tu equipo actual</li>
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Capacitación incluida</li>
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Arranca en menos tiempo</li>
+          </ul>
+          <a class="btn btn--ghost btn--sm" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20cotizar%20la%20instalaci%C3%B3n%20del%20software%20en%20mi%20equipo%20actual" target="_blank" rel="noopener">Cotizar esta opción
+            <svg class="i ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="pack">
+          <span class="pack__tag mono">+ Tablet</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M12 18h.01"/></svg>
+          <h3>Software + tablet lista para usar</h3>
+          <p>Te entregamos una tablet nueva, configurada con tu sistema listo para operar. Ideal para mostrador, caja chica o negocios con poco espacio.</p>
+          <ul class="mod__list">
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Tablet nueva y configurada</li>
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Ideal para mostrador o venta móvil</li>
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Todo listo para encender y usar</li>
+          </ul>
+          <a class="btn btn--ghost btn--sm" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20cotizar%20el%20paquete%20de%20software%20con%20tablet" target="_blank" rel="noopener">Cotizar esta opción
+            <svg class="i ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="pack">
+          <span class="pack__tag mono">+ Equipo de cómputo</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="1.5"/><path d="M8 20h8M12 16v4"/><circle cx="17" cy="8" r="1"/></svg>
+          <h3>Paquete completo con equipo nuevo</h3>
+          <p>Compramos, instalamos y configuramos la computadora y periféricos necesarios, junto con tu sistema. Todo listo para operar desde el primer día.</p>
+          <ul class="mod__list">
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Equipo recomendado según tu presupuesto</li>
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Instalación y configuración incluidas</li>
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Ideal si vas a empezar desde cero</li>
+          </ul>
+          <a class="btn btn--ghost btn--sm" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20cotizar%20el%20paquete%20completo%20con%20equipo%20de%20c%C3%B3mputo" target="_blank" rel="noopener">Cotizar esta opción
+            <svg class="i ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="pack">
+          <span class="pack__tag mono">En la nube</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a4 4 0 0 1-.5-7.97A5 5 0 0 1 16 8a3.5 3.5 0 0 1 1 6.9"/></svg>
+          <h3>Software en la nube</h3>
+          <p>Tu sistema corre en la nube: accesible desde celular, tablet o computadora, con respaldo automático de tu información. Ideal si tienes más de una sucursal.</p>
+          <ul class="mod__list">
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Accede desde cualquier dispositivo</li>
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Respaldo automático de tu información</li>
+            <li><svg class="ico" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg> Ideal para varias sucursales</li>
+          </ul>
+          <a class="btn btn--ghost btn--sm" href="https://wa.me/524271492766?text=Hola%2C%20quiero%20cotizar%20el%20software%20en%20la%20nube" target="_blank" rel="noopener">Cotizar esta opción
+            <svg class="i ico" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+      <p class="compare__note">// El costo varía según el paquete, el volumen de tu negocio y los módulos que elijas. Cotización sin compromiso por WhatsApp.</p>
     </section>
 
     <!-- ============ COMPARE ============ -->
